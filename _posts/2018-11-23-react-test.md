@@ -18,16 +18,15 @@ TDD 는 나에게 무슨 장벽.. 같았다.
 
 ### 해야할 일
 
+
 1. 서버로 부터 배열이 들어온다.
 ```
-
 const exampleArray = ["navigation", "black_box", ...];
-
 ```
 
 2. 내 쓰임새에 맞게 배열을 바꾼다.
-```
 
+```
 const myArray = [
     {
         iconPath: "....",
@@ -38,13 +37,11 @@ const myArray = [
         optionName: "블랙박스"    
     }
 ];
-
 ```
 
 3. 주어진 배열에 따라 Dynamic 하게 View 를 렌더링해준다.
 
 ```
-
 - 만약 배열의 원소가 1개 이면?
 0
 
@@ -56,8 +53,8 @@ const myArray = [
 0 0
 0 0
 0
-
 ```
+
 ---
 
 ### Test
@@ -90,7 +87,6 @@ Jest 를 살펴보면 굉장히 다양한 기능이 포함되어 있는데,
 그래서 이렇게 써보았다.
 
 ```
-
 import HandleVehicleOptions from "../src/components/HandleVehicleOptions";
 
 const options = [
@@ -107,7 +103,6 @@ let vehicleOptions = HandleVehicleOptions.makeVehicleOptions(options);
 test("transform correctly", () => {
   expect(vehicleOptions).toHaveLength(6);
 });
-
 ```
 
 배열이 맞게 변경 되었다면, 일단 6개 바꿨으니 6개 원소는 들어가있겠지 싶었다.
@@ -141,7 +136,6 @@ console.log(vehicleOptions);
 일단 그려나 보기로 했다.
 
 ```
-
 import renderer from "react-test-renderer";
 
 import HandleVehicleOptions from "../src/components/HandleVehicleOptions";
@@ -164,7 +158,6 @@ test("transform correctly", () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
-
 ```
 
 이렇게 그려보면, __snapshots__ 라는 디렉토리가 하나 생성되고, 그 안에 vehicleOptions.test.js.snap 이라는 파일이 생성된다.
