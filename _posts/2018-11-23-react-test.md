@@ -184,5 +184,4 @@ test("transform correctly", () => {
 
 TDD 가 눈앞에 있는 느낌이 든다.
 
-ㅋㅋ
 
