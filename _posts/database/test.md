@@ -1,1 +1,4 @@
-# database
+---
+layout: page
+title: database
+---

@@ -1,1 +1,4 @@
-# javascript
+---
+layout: page
+title: javascript
+---

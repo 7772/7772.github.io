@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 소개
 ---
 
 안녕하세요, 박현도 입니다.
