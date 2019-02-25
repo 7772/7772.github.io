@@ -25,9 +25,9 @@ description: Hello.
 navbar-links:
   About Me: "aboutme"
   Category:
-    - OOP: "oop"
-    - Database: "database"
-    - Javascript: "javascript"
+    - OOP: "collections/_oop"
+    - Database: "collections/_database"
+    - Javascript: "collections/_javascript"
   Github: "https://github.com/7772"
 
 # Collections
@@ -211,9 +211,6 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
-    - /database
-    - /js
-    - /oop
     - /css
     - /img
     - /js
