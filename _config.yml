@@ -25,9 +25,9 @@ description: Hello.
 navbar-links:
   About Me: "aboutme"
   Category:
-    - OOP: "_post/oop"
-    - Database: "_post/database"
-    - Javascript: "_post/js"
+    - OOP: "oop/_post"
+    - Database: "database/_post"
+    - Javascript: "javascript/_post"
   Github: "https://github.com/7772"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -196,6 +196,9 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - /database
+    - /js
+    - /oop
     - /css
     - /img
     - /js
