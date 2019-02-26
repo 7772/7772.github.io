@@ -24,26 +24,7 @@ description: Hello.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Category:
-    - OOP: "collections/_oop"
-    - Database: "collections/_database"
-    - Javascript: "collections/_javascript"
   Github: "https://github.com/7772"
-
-# Collections
-collections:
-  oop:
-    output: true
-    permalink: pretty
-  database:
-    output: true
-    permalink: pretty
-  javascript:
-    output: true
-    permalink: pretty
-  posts:
-    output: true
-    permalink: pretty
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
