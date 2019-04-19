@@ -5,7 +5,7 @@ comments: true
 categories: Javascript
 ---
 
-### 자바스크립트에서의 모듈
+## 자바스크립트에서의 모듈
 
 
 **1. 모듈이란?**
@@ -29,7 +29,7 @@ categories: Javascript
 - 코드 재사용 : 같은 코드를 반복해서 작성하는 것을 피한다.
 - 의존성 관리 : 코드를 다시 작성하지 않고도 쉽게 의존성을 변경한다.
 
-### 모듈을 사용하는 방법 (CommonJS, ES6) 
+## 모듈을 사용하는 방법 (CommonJS, ES6) 
 
 자바스크립트에서 모듈을 사용하는 방법은 실행환경에 따라 다양하다.
 
@@ -105,7 +105,7 @@ categories: Javascript
   export { moduleName, foo };
   ```
 
-### References
+## References
 
 - [codepink github page](https://github.com/codepink/codepink.github.com/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A8%EB%93%88,-%EB%AA%A8%EB%93%88-%ED%8F%AC%EB%A7%B7,-%EB%AA%A8%EB%93%88-%EB%A1%9C%EB%8D%94%EC%99%80-%EB%AA%A8%EB%93%88-%EB%B2%88%EB%93%A4%EB%9F%AC%EC%97%90-%EB%8C%80%ED%95%9C-10%EB%B6%84-%EC%9E%85%EB%AC%B8%EC%84%9C)
 
