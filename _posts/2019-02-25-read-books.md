@@ -15,8 +15,28 @@ categories: Blog
 
 4. 관계형 데이터베이스 실전 입문
 
-5. 객체지향의 사실과 오해
+5. 객체지향의 사실과 오해 `Completed`
 
-6. 이것이 MySQL 이다.
+6. 이것이 MySQL 이다. `Completed`
 
-7. Clean Code
+7. Clean Code `Completed`
+
+8. Clean Coder `Completed`
+
+9. 개발자의 글쓰기 `Completed`
+
+10. You Don't Know JS: 타입과 문법, 스코프와 클로저
+
+11. 스프링 부트 2 레시피
+
+12. 이펙티브 자바 3/E `Progressing`
+
+13. 해커와 화가
+
+14. 토비의 스프링 3.1 `Progressing`
+
+15. JAVA 객체지향 디자인 패턴 `Progressing`
+
+16. 뇌를 자극하는 알고리즘 `Progressing`
+
+17. Clean Architecture
