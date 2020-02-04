@@ -25,5 +25,7 @@ GraphQL 이 Server 와 Client 사이의 데이터를 주고받는 하나의 방�
 
 ### 변하지 않은 것들
 
+
+
 <br/><br/>
 
