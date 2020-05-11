@@ -56,7 +56,7 @@ Foo2.prototype.methodA();
 <br/>
 
 React Native에서 View Component를 작성하는 방식은 기본적으로 Javascript의 class 문법을 사용한다.
-따라서 class 문법으로 선언된 React N서tive View Component는 jsx 태그를 사용하여 인스턴스화되지 않아도 class 내부의 함수로 접근할 수 있다.
+따라서 class 문법으로 선언된 React Native View Component는 jsx 태그를 사용하여 인스턴스화되지 않아도 class 내부의 함수로 접근할 수 있다.
 
 <br/>
 
