@@ -35,8 +35,6 @@ categories: Blog
 
 14. 토비의 스프링 3.1 `Progressing`
 
-15. JAVA 객체지향 디자인 패턴 `Progressing`
+15. JAVA 객체지향 디자인 패턴 `Completed`
 
-16. 뇌를 자극하는 알고리즘 `Progressing`
-
-17. Clean Architecture
+16. 뇌를 자극하는 알고리즘 `Completed`
