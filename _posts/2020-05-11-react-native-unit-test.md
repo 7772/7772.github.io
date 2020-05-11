@@ -5,13 +5,13 @@ comments: true
 categories: Javascript
 ---
 
+<br/><br/>
+
 # Prototype
 
 <br/>
 
 1. class 문법으로 Foo 클래스(함수) 생성하기
-
-<br/>
 
 ```
 class Foo1 {
@@ -25,8 +25,6 @@ class Foo1 {
 
 2. 전통적인 방식으로 Foo 함수 생성하기
 
-<br/>
-
 ```
 var Foo2 = function() {};
 
@@ -38,8 +36,6 @@ Foo2.prototype.methodA = function() {
 <br/>
 
 3. 사용해보기
-
-<br/>
 
 ```
 var foo1 = new Foo1();
@@ -71,12 +67,9 @@ React Native에서 View Component를 작성하는 방식은 기본적으로 Java
 
 1. 구현해야할 내용 생각해보기
 
-<br/>
-
 `MyButton` React Natvie View Component의 onPress 함수가 실행되면 requestAPI 함수를 실행해야 한다.
 
 <br/>
-
 
 > 주의! onPress 함수의 역할은 버튼을 클릭하는 것이 아니라, 클릭이 이뤄진 후의 동작이다. 따라서 onPress 함수의 테스트 내용은 버튼 클릭과는 무관하다.
 
@@ -84,8 +77,6 @@ React Native에서 View Component를 작성하는 방식은 기본적으로 Java
 
 
 2. Test Case 작성하기
-
-<br/>
 
 
 > Test Library로 jest를 사용한다.
@@ -95,32 +86,17 @@ React Native에서 View Component를 작성하는 방식은 기본적으로 Java
 
 단위테스트를 좀 더 쉽게 작성하고, 읽기 쉽도록 만들기 위한 방법론으로 Given, When, Then이 있다.
 
-<br/>
-
-
 `1. 구현해야할 내용 생각해보기`에서 정했던 내용을 `Given`, `When`, `Then`으로 각각 분리하여 표현해야 한다.
-
-<br/>
-
 
 - `When` : 테스트할 상황. `onPress` 함수가 실행되면 발생하는 상황을 테스트하고자 하므로 `onPress` 함수를 실행시켜야 한다.
 
-<br/>
-
-
 - `Then` : 테스트할 상황이 발생하면 벌어질 결과. 우리는 `requestAPI`가 호출될 것이라고 예상했으므로 이 내용을 검증해야 한다.
-
-<br/>
-
 
 - `Given` : 테스트할 상황이 벌어졌을 때, 예상된 결과를 도출하기 위해 필요한 값. 우리는 `requestAPI`가 호출되길 원한다. 따라서 `requestAPI`가 호출되기 위해 필요한 값을 정의해주어야 한다.
 
 <br/>
 
-
 > jest 사용법은 공식문서를 통해 확인하자.
-
-<br/>
 
 ```
 // MyButton.test.js
@@ -147,8 +123,6 @@ describe('MyButton : onPress', () => {
 <br/>
 
 3. `MyButton` 구현하기 
-
-<br/>
 
 ```
 class MyButton extends React.Component {
