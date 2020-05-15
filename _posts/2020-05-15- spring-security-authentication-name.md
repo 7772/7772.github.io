@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native에서 단위 테스트 작성하기
+title: Spring Security Authentication 용어 정리
 comments: true
 categories: Spring 
 ---
