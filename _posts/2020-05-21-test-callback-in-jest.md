@@ -24,6 +24,8 @@ this.setState(state, () => {
 expect(mockSetState).toBeCalledWith(state, expect.any(Function));
 ```
 
+<br/>
+
 <h2>mockImplementaion 사용하기</h2>
 
 <p>혹시나 어떤 특별한 방법이 있을까? 하고 궁금하여</p>
