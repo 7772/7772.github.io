@@ -11,6 +11,7 @@ categories: Blog
 
 > 프로젝트의 Workflow를 쉽게 구성할 수 있도록 하는 Github의 기능.
 
+<br/>
 
 ### 목표
 
@@ -18,6 +19,8 @@ categories: Blog
 - 빌드 자동화
 - 원격 저장소(s3)에 Artifacts 파일 업로드
 - Slack Notification
+
+<br/>
 
 ### Github Secrets
 
@@ -27,6 +30,8 @@ categories: Blog
 2. 안드로이드 릴리즈 키 
 3. AWS 정보
 4. Slack Webhook Endpoint
+
+<br/>
 
 ### 테스트 자동화
 
@@ -47,6 +52,8 @@ jobs:
 - `yarn`, `npm`, `npx` 등의 패키지 관리 라이브러리는 기본적으로 설치되어 있음
 - Actions 환경에서 테스트 실행 후 종료되지 않는 이슈가 발생한다면 `--forceExit --detectOpenHandles` 옵션을 추가하여 실행할 것
 
+<br/>
+
 ### 빌드 자동화
 
 1. 의존성 설치
@@ -64,6 +71,8 @@ build-android:
 
 - `needs` 에 본 작업 실행 전 필요한 작업을 작성함 (동기적으로 실행)
 
+<br/>
+
 2. Release Key 발급
 
 ```
@@ -73,6 +82,8 @@ build-android:
 ```
 
 - `xx.keystore` 파일은 깃허브에 업로드 하지 않기 때문에 파일을 base64로 전환한 후 Github Secrets로 등록하여 사용 (`${{ secrets.RELEASE_KEY }}`)
+
+<br/>
 
 3. Build
 
@@ -84,6 +95,8 @@ build-android:
 
 - 안드로이드 빌드 패스워드 2가지를 Github Secrets로 등록하여 사용
 
+<br/>
+
 4. Branch 이름 추출
 
 ```
@@ -94,6 +107,8 @@ build-android:
 ```
 
 - S3 업로드 시 파일 이름에 작업 브랜치 이름을 사용하기 위하여 `yml`에 `key`로 등록한 후 사용함
+
+<br/>
 
 5. S3 업로드
 
@@ -109,6 +124,8 @@ build-android:
 ```
 
 - AWS 계정 정보(`key_id`, `secret_access_key`)와 bucket 정보를 입력해야 함
+
+<br/>
 
 6. Slack Notification
 
@@ -128,3 +145,6 @@ build-android:
 - [Slack Incomming webhook](https://olulo.slack.com/apps/A0F7XDUAZ-incoming-webhooks)을 이용하여 슬랙에 메세지를 전송
 - Webhook Endpoint는 Github Secrets에 등록하여 사용함
 - `SLACK_MESSAGE`에는 업로드된 apk 파일을 다운로드 할 수 있는 public endpoint를 기입함
+
+<br/>
+<br/>
