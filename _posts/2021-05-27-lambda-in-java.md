@@ -7,8 +7,6 @@ categories: Spring
 
 ## 1. 메소드를 값으로 취급
 
-<br/>
-
 ```javascript
 function withFoo(func) {
     const foo = function () {
@@ -173,7 +171,7 @@ Comparator<Apple> byWeight =
 
 #### 3.2.1 함수형 인터페이스
 
-함수형 인터페이스란 SAM(**S**ingle **A**bstract **M**ethod)이다. 하나의 추상 메소드만을 가지는 인터페이스를 말한다.<br/>
+함수형 인터페이스란 하나의 추상 메소드만을 가지는 인터페이스를 말한다.<br/>
 아래와 같은 모습이다.
 
 ```java
