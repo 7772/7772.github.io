@@ -144,7 +144,7 @@ Comparator<Apple> byWeight =
 
 중요한 것은 비교를 수행하는데 필요한 코드를 직접적으로 표현하고 전달할 수 있게 되었다는 점이다.
 
-<img src='../img/lambda-1.png'/>
+<img src='../img/spring-lambda-1.png'/>
 
 람다는 위와 같이 파라미터, 화살표, 바디로 이루어져 있다. <br/>
 다음은 자바 8의 유효한 람다 표현식의 일부이다.
