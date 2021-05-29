@@ -93,7 +93,7 @@ public interface Predicate<T> {
 
 <br/>
 
-### 4. `Predicate<T>` 인터페이스를 구현한 구체 클래스 만들기
+## 4. `Predicate<T>` 인터페이스를 구현한 구체 클래스 만들기
 
 `Predicate<T>` 를 구현한 구체 클래스부터 만들어보자.<br/>
 
@@ -113,7 +113,7 @@ public class VehicleSUVPredicate implements Predicate<Vehicle> {
 
 <br/>
 
-### 5. 구체 클래스를 이용하여 `Vehicle` 타입 검사하기
+## 5. 구체 클래스를 이용하여 `Vehicle` 타입 검사하기
 
 구현한 구체 클래스를 사용할 서비스 클래스를 선언한다.
 
@@ -137,7 +137,7 @@ public class VehiclePredicateService {
 
 <br/>
 
-### 6. 람다 적용
+## 6. 람다 적용
 
 함수형 인터페이스를 인수로 받는 메소드가 준비되면, 람다를 사용할 수 있다.
 
