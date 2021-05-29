@@ -2,7 +2,7 @@
 layout: post
 title: 자바의 람다 표현식 - 정의와 사용방법
 comments: true
-categories: Spring
+categories: Java 
 ---
 
 C와 Java의 기본 문법을 막 공부하고, 몇 가지 간단한 프로그래밍을 할 수 있었던 시점에<br/>

@@ -2,7 +2,7 @@
 layout: post
 title: 자바의 람다 표현식 - 활용 방법
 comments: true
-categories: Spring
+categories: Java 
 ---
 
 [이 전 포스팅](https://7772.github.io/2021-05-27-lambda-in-java/)에서 람다의 정의와 사용방법에 대하여 알아보았다.<br/>
