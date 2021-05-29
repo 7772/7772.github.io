@@ -13,6 +13,8 @@ categories: Java
 
 > 이 포스팅에서 사용한 예제코드는 [Github](https://github.com/7772/study/tree/master/lambdastudy) 에서 확인할 수 있다.
 
+<br/>
+
 ## 1. 사전 준비
 
 우리는 `Predicate<T>`, `Consumer<T>` 그리고 `Function<T, R>` 를 알아볼 것이다.<br/>
@@ -49,6 +51,8 @@ public class Vehicle {
 
 타입, 제조사, 모델 이름, 색상을 프로퍼티로 갖는 클래스이다.
 
+<br/>
+
 ## 2. 조건 검사 - if else
 
 `Vehicle` 클래스를 인스턴스화 시킨 `vehicle`이 있다.
@@ -71,7 +75,9 @@ if (Vehicle.Type.SUV.equals(vehicle.getType())) {
 
 조건 검사를 실행하는 역할을 가진 객체를 분리하여 기능을 위임해 보려고 한다.
 
-## 1. [`Predicate<T>`](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
+<br/>
+
+## 3. [`Predicate<T>`](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
 
 `java.util.function.Predicate<T>` 인터페이스는 `test` 메소드를 추상 메소드로 선언한 함수형 인터페이스다.<br/>
 
@@ -85,7 +91,9 @@ public interface Predicate<T> {
 }
 ```
 
-### 1.1 `Predicate<T>` 인터페이스를 구현한 구체 클래스 만들기
+<br/>
+
+### 4. `Predicate<T>` 인터페이스를 구현한 구체 클래스 만들기
 
 `Predicate<T>` 를 구현한 구체 클래스부터 만들어보자.<br/>
 
@@ -103,7 +111,9 @@ public class VehicleSUVPredicate implements Predicate<Vehicle> {
 `Predicate<T>` 인터페이스의 Generic 타입에 `Vehicle` 클래스를 사용하겠다고 명시해 두었다. 따라서 클래스의 이름에도 prefix로 `Vehicle`을 사용했다.<br/>
 구현한 코드는 `SUV` 여부를 확인하고 있다.
 
-### 1.2 구체 클래스를 이용하여 `Vehicle` 타입 검사하기
+<br/>
+
+### 5. 구체 클래스를 이용하여 `Vehicle` 타입 검사하기
 
 구현한 구체 클래스를 사용할 서비스 클래스를 선언한다.
 
@@ -125,7 +135,9 @@ public class VehiclePredicateService {
 
 `Predicate<T>` 를 구현한 코드를 `VehicleSUVPredicate` 클래스에 캡슐화하였고, 클라이언트에서는 해당 클래스의 인스턴스에 의존하여 결과를 얻고 있다.
 
-### 1.3 람다 적용
+<br/>
+
+### 6. 람다 적용
 
 함수형 인터페이스를 인수로 받는 메소드가 준비되면, 람다를 사용할 수 있다.
 
