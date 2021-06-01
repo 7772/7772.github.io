@@ -100,7 +100,7 @@ url-pretty: "7772.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "G-R5135NXY5B"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "G-R5135NXY5B"
