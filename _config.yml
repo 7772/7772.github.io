@@ -23,6 +23,8 @@ description: Programming journey
 
 # List of links in the navigation bar
 navbar-links:
+  Category:
+    - Java: "/category/java"
   About Me: "aboutme"
   Github: "https://github.com/7772"
 
