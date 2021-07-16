@@ -25,7 +25,9 @@ description: Programming journey
 navbar-links:
   Category:
     - Java: "https://7772.github.io/category/java"
+    - Spring: "https://7772.github.io/category/spring"
     - Design pattern: "https://7772.github.io/category/design-pattern"
+    - Javascript: "https://7772.github.io/category/js"
   About Me: "aboutme"
   Github: "https://github.com/7772"
 

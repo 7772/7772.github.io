@@ -2,7 +2,7 @@
 layout: post
 title: Amazon ElastiCache for Redis
 comments: true
-categories: DailyStudy 
+categories: Blog
 ---
 
 # Amazon ElastiCache for Redis
